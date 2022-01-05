@@ -1,0 +1,48 @@
+*{
+    margin: 0;padding: 0;box-sizing: border-box;
+}
+
+section{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    /* background: grey; */
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+    border-radius: 3px;
+    border: none;
+    color: white;
+    background: rgb(28,28,28);
+    transition: background 0.75s ease-out;
+}
+
+button:hover{
+    background: rgb(74,74,74);
+}
+
+nav{
+    min-height: 10vh;
+    background: rgb(40,40, 40);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    transition: all 0.5s ease-out;
+}
+
+.nav-slide{
+    transform: translateY(-100%);
+}
+p{
+    opacity: 1;
+    transition: opacity 0.5s ease-out 0.5s;
+}
+.fade{
+    opacity: 0;
+}
